@@ -60,7 +60,7 @@ preferences {
 	71: [attribute: "bodyTemperature", converter: this.&temperatureConverter],
 	73: [attribute: "skinTemperature", converter: this.&temperatureConverter],
 	76: [attribute: "muscleMass", displayAttribute: "muscleMassDisplay", converter: this.&massConverter],
-	77: [attribute: "hydration", converter: this.&massConverter],
+	77: [attribute: "hydration", displayAttribute: "hydrationDisplay", converter: this.&massConverter],
 	88: [attribute: "boneMass", displayAttribute: "boneMassDisplay", converter: this.&massConverter],
 	91: [attribute: "pulseWaveVelocity", converter: this.&pulseWaveVelocityConverter]
 ]
