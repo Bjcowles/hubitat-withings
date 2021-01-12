@@ -23,5 +23,7 @@ metadata {
         attribute "boneMass", "number"
         attribute "boneMassDisplay", "string"
         attribute "pulseWaveVelocity", "number"
+	attribute "hydration", "number"
+	attribute "hydrationDisplay", "string"
     }
 }
